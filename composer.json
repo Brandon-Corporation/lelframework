@@ -1,0 +1,23 @@
+{
+    "name": "bcorp/lelframework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex",
+            "email": "aleo74@hotmail.fr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Bcorp\\Lelframework\\": "src/"
+        }
+    },
+    "require": {},
+    "scripts": {
+        "post-package-install": [
+            "@php artisan lelframework:install"
+        ]
+    }
+}
