@@ -58,6 +58,7 @@ Add images on a chapter:
 Now, you have to go on ‘media manager’, and create a folder with the name of your manga. 
 In this folder, add a new folder with this name ‘ch1’. The last step is to upload images on it.
 Here's an example with three files :
+
 [manga name] -> ch1 -> img1.png
             -> img2.png
             -> img3.png
