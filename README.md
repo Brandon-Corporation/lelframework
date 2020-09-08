@@ -58,17 +58,25 @@ Add images on a chapter:
 Now, you have to go on ‘media manager’, and create a folder with the name of your manga. 
 In this folder, add a new folder with this name ‘ch1’. The last step is to upload images on it.
 Here's an example with three files :
+``` bash
+├───[manga name]
+│   ├───ch1
+|   |   ├─── img1.png
+|   |   ├─── img2.png
+|   |   ├─── img3.png
+|   |   └─── img4.png
+│   └───ch2
+|   |   ├─── img1.jpeg
+|   |   ├─── img2.jpeg
+|   |   ├─── img3.jpeg
+|   |   ├─── img4.jpeg
+|   |   └─── img5.jpeg
+│   └───ch3
+|   |   ├─── img1.jpeg
+|   |   ├─── img2.jpeg
+|   |   └─── img3.jpeg
 
-[manga name] -> ch1 -> img1.png
-            -> img2.png
-            -> img3.png
-        -> ch2 -> img1.png
-            -> img2.png
-            -> img3.png
-            -> img4.png
-        -> ch3 -> img1.jpeg
-            -> img2.jpeg
-            -> img3.jpeg
+```
 
 No entry has been created on the database for manga’s images. ‘Media manager’ is a safe place to upload files, and you can crop images. 
 You can change the image without modifying the database.
