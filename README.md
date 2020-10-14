@@ -31,7 +31,7 @@ add in config/app.php : \Bcorp\Lelframework\BcorpLelServiceProvider::class,
 composer require bcorp/lelframework
 
 # 2.2
-php artisan bcorp:install
+php artisan lelframework:install
 
 # 3
 composer require laravel/ui --dev
